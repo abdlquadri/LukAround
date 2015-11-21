@@ -5,8 +5,10 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="This is the home activity"
+        android:text="There is no current activity"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:padding="10dp"
+        android:textColor="@color/negativeButtonColor"
         android:layout_height="wrap_content" />
 </LinearLayout>

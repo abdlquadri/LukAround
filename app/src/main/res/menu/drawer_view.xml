@@ -11,9 +11,11 @@
 
         <item
             android:id="@+id/friends"
-            android:title="Friends Around" />
+            android:title="People Around" />
 
-
+        <item
+            android:id="@+id/trending_news"
+            android:title="Interest News Updates" />
 
 
         <item

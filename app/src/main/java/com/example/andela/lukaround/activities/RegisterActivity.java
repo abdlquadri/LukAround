@@ -1,4 +1,4 @@
-package com.example.andela.lukaround;
+package com.example.andela.lukaround.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.andela.lukaround.MapsActivity;
+import com.example.andela.lukaround.R;
 
 //import com.worldtreeinc.leaves.helper.UserAuthentication;
 
@@ -54,7 +57,7 @@ public class RegisterActivity extends AppCompatActivity {
      *             and registers the user
      */
     public void register(View view) {
-        Intent intent = new Intent(this, Interest.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
